@@ -335,7 +335,7 @@ void proses_kecepatan()
     BelakangKiriPID.setProcessValue(fabs(BelakangKiriVelocity));
 }
 
-/*float Get_Yaw()
+float Get_Yaw()
 {
     CMPS.unlock();
     CMPS.start();
@@ -357,7 +357,7 @@ void proses_kecepatan()
         return bearing;
     }
 }
-*/
+
 
 void Get_Count()
 {
