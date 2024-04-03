@@ -385,8 +385,8 @@ void Get_Count()
 
 void Cari_Koordinat()
 {
-    //orientasi = -1.0f * ((double)Get_Yaw()- sudut_awal);
-    //orientasi_2 = orientasi;
+    orientasi = -1.0f * ((double)Get_Yaw()- sudut_awal);
+    orientasi_2 = orientasi;
     orientasi = 0;
     
     koordinat_y = koordinat_y + terhadap_y;
